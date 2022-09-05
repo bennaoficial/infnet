@@ -1,0 +1,114 @@
+html {
+  width:100%;
+  font-family:helvetica;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../img/background_evh.png");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: auto 160%;
+  left:0;
+  top:0;
+}
+header ul :visited, header ul :link {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+}
+header ul :hover {
+  font-size: 15px;
+}
+header > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.menu_lateral {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 2%;
+  margin-top: 25%;
+  margin-left: 98%;
+}
+.titulo {
+  background-image: url("../img/eddie-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 70px;
+  background-position-x:center;
+  background-size: 80% auto;  
+}
+.titulo >h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: -2px -2px black;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.sobre {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+section>nav {
+  background-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: justify;
+}
+.sobre_guitarra > div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 15%;
+
+}
+
+.nav_guitarra {
+  display: flex;
+  align-items: center;
+  padding-right: 25%;
+}
+.sobre_guitarra {
+  background-image: url("../img/frankestrat.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:right ;
+  background-position-y: 100%;
+  background-position-x: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin:10%;
+}
+
+.imagens_final {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.imagens_final>.imagem_1 {
+  width: 50%;
+  object-fit: contain;
+}
+.imagens_final
