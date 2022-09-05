@@ -1,0 +1,17 @@
+.tabela {
+  background-color: #202020;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+section table {
+  margin: 0 auto;
+  border-top: 1px solid #e8e8e8;
+
+}
+section table td, th {
+  padding: 10px;
+}
+section table td:hover {
+  background-color: orange;
+
+}

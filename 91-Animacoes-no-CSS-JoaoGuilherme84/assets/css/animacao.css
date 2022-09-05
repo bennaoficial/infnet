@@ -1,0 +1,43 @@
+.cartao_visita {
+  /*transition: 4s;*/
+  
+}
+.redes_sociais {
+  animation-name: opacidade;
+  animation-duration: 4s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes opacidade {
+  0%{ opacity: 0;}
+  50%{opacity: 0;}
+  100%{opacity: 70%;}
+}
+
+section div img {
+  animation-name: entrapelaesquerda;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.49,.22,.94,.25);
+}
+@keyframes entrapelaesquerda {
+  0%{ margin-right: 500px;}
+  100%{margin-right: 0;}
+}*/
+
+
+.introducao {
+  transition: 4s;
+}
+
+.especialidade {
+  transition: 4s;
+}
+
+.habilidades {
+  transition: 4s;
+}
+
