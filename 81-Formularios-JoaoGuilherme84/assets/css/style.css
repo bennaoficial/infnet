@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#f1ccff,white);
+  padding: 10px;
+
+  
+}
+form legend {
+  text-align: center;
+  color: #9b59b6;
+  font-weight: bold;
+  font-size: 30px;
+}
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+form .form-group input {
+  padding: 5px;
+  box-sizing: border-box;
+}
+form .form-group input:focus {
+  outline-color: #9b59b6;
+}
+form button {
+  background-color: #9b59b6;
+  padding: 5px;
+  color: white;
+  border: none;
+  
+}
+form button:hover {
+  cursor: pointer;
+  transform: scaleX(0.8);
+  transition: .5s;
+}
+
+@media screen and (max-width:480px) {
+  form {
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: border-box;
+    
+  }
+}
