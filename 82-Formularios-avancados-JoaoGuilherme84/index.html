@@ -1,0 +1,78 @@
+<!-- Crie um formulário de edição de perfil contendo os seguintes campos:
+
+- E-mail;
+- Username;
+- Senha;
+- Sexo;
+- Biografia;
+- Perfil do facebook;
+- Perfil do github;
+- Perfil do instagram;
+- Perfil do linkedin;
+
+Utilize ícones do font-wesome ou do material design para personalizar os campos de redes sociais e tambem os demais campos. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <title>formulario</title>
+</head>
+
+<body>
+  <div>
+    <form method="post">
+      <legend>Formulário</legend>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="user@email.com">
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="John Smith">
+      </div>
+        <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="exemplo:Upper_7">
+      </div>
+        <div class="form-group">
+        <span>
+        <label for="sexo">sexo:</label>
+        Masculino<input type="radio" name="sex" id="masculino">
+        Feminino<input type="radio" name="sex" id="feminino">
+        Outro<input type="radio" name="sex" id="outro" checked>
+        </span>
+        </div>
+      
+      <div class="form-group">
+        <label for="text">Biografia:</label>
+        <textarea name="biografia" id="biografia" rows="8" placeholder="digite seu texto"></textarea>
+      </div>
+      <div class="redes_sociais">
+        <i class="fa-brands fa-facebook">
+          <input type="text" name="facebook" id="facebook" placeholder="facebook.com/user">
+            </i>
+        <i class="fa-brands fa-github">
+        <input type="text" name="github" id="github" placeholder="github.com/user">
+            </i>
+        <i class="fa-brands fa-instagram">
+        <input type="text" name="instagram" id="instagram" placeholder="instagram.com/user">
+            </i>
+        <i class="fa-brands fa-linkedin">
+        <input type="text" name="linkedin" id="linkedin" placeholder="linkedin.com/user">
+            </i>
+        </div>
+      
+      <button>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        <span>Enviar</span>
+      </button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
