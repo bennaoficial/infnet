@@ -1,0 +1,55 @@
+
+.cartao_visita {
+  display: flex;
+  justify-content: space-around;
+  background-color: #202020;
+  padding:15%;
+}
+section div img{
+  width: 225px;
+  font-weight: lighter;
+  
+} 
+section div h3{
+  width: 225px;
+  margin-right: 150px;
+  font-weight: lighter;
+}
+
+section div h1 {
+ font-size: 60px;  
+  color: orange;
+  font-weight: bold;
+  font-stretch:condensed;
+}
+section div h2 {
+  font-size: 40px;
+}
+section div {
+  text-align: left;
+  margin: auto 0;
+  
+}
+
+section div article {
+  text-align: left;
+  margin-left: 150px;
+  margin: auto 0;
+
+}
+.redes_sociais {
+display: flex; 
+
+}
+div i {
+  font-size: 30px;
+  padding: 15px;
+  color: white;
+
+}
+
+div i:hover {
+color: orange;
+transition: all .5s;
+transform: scale(1.5);
+}

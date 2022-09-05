@@ -1,0 +1,80 @@
+@import "header.css";
+@import "footer.css";
+@import "tabela.css";
+@import "habilidades.css";
+@import "cartaovisita.css";
+@import "especialidade.css";
+@import "introducao.css";
+@import "formulario.css";
+
+html {
+font-family: Arial, Helvetica, sans-serif;
+color: #e8e8e8;
+scroll-behavior: smooth;
+background-image: linear-gradient(white,#202020);
+width: 100%;
+height: 100%;
+}
+body {
+  margin: 0px;
+}
+
+
+@media screen and (min-width:822px) and (max-width:1300px){
+  .cartao_visita, .introducao, .especialidade, .habilidades {
+    flex-wrap: wrap;
+   padding:10%;
+    margin: 0;
+  }
+  .cartao_visita img {
+    margin: 0;
+  }
+  section div, section div h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .habilidades ul {
+    padding: 0;
+   }
+  
+  .redes_sociais {
+  margin-top: 20px;
+  
+    }
+}
+@media screen and (max-width:821px) {
+ .cartao_visita, .introducao, .especialidade, .habilidades {
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin: 0;
+   padding: 2%;
+ }
+  header {
+  flex-direction: column;
+  text-align: center;
+ }
+  header ul {
+    padding-inline-start: 0px;
+    flex-direction: column;
+  }
+ .cartao_visita{
+   padding-top: 180px;
+ } 
+  .cartao_visita img {
+    margin: 0;
+  }
+  section div, section div h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .habilidades ul {
+    padding: 0;
+   }
+  
+  .redes_sociais {
+  margin-top: 20px;
+  
+    }
+
+
+}

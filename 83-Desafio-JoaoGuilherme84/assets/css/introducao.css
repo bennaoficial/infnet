@@ -1,0 +1,13 @@
+.introducao {
+  display: flex;
+  justify-content:center;
+  background-color: #383838;
+  padding:200px;
+}
+.introducao div , .especialidade div, .habilidades div {
+  text-align: center;
+}
+.introducao div p, .especialidade p {
+  text-align: justify;
+    text-indent: 30px;
+}
