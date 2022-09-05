@@ -1,0 +1,45 @@
+
+table {
+  color: green;
+  border-top: 1px solid  lightgray;
+  border-left: 1px solid  lightgray;
+  border-bottom: 2px solid  darkgrey;
+  border-right: 2px solid  darkgrey;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+h3{
+  text-align: center;
+}
+td {
+  background-color:  yellow;
+  border-top: 2px solid  darkgray;
+  border-left: 2px solid  darkgrey;
+  border-bottom: 1px solid  lightgray;
+  border-right: 1px solid  lightgray;
+}
+#branco {
+  background-color: white;
+  border:none;
+}
+.primeira_linha {
+  background-color: white;
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+}
+.nome {
+  background-color: pink;
+  color: black;
+  font-family: lucida;
+  font-weight:bold;
+  font-style: italic;
+  
+}
+.nota_final {
+  background: red;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
