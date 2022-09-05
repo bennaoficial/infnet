@@ -1,0 +1,268 @@
+<!-- Crie uma página para anúnciar um dos hamburgueres do MC Donald's. A página precisa ser única e conter links âncoras para navegação dentro dela mesma. Aplique o que aprendemos até o momento sobre boxes, HTML, posicionamento o todos os demais recursos que já foram falados. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>replit</title>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/img/logo.png">
+    <ul>
+      <li><a href="#">Cardápio</a></li>
+      <li><a href="#">Lançamentos</a></li>
+      <li><a href="#">Quem Somos</a></li>
+      <li><a href="#">Família</a></li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="#">Méqui pra você</a></li>
+      <li><a href="#">Mc Dia Feliz</a></li>
+
+    </ul>
+  </header> 
+  <main>
+  <section class="parte1">
+    <img src="./assets/img/bigtastyturbobacon.jpg">
+    <div>
+      <h1>Big Tasty Turbo Bacon</h1>
+      <h2>1015 kcal</h2>
+      <p>Um Hambúrguer (100% carne bovina), bacon em fatias, bacon crispy, queijo sabor emental, tomate, alface
+        americana, cebola, molho Tasty e pão com gergelim.</p>
+    </div>
+  </section>
+  <section class="parte2">
+    <div>
+      <h2 class="informacao_produto">Informação do produto</h2>
+    </div>
+    <h2>Informação nutricional</h2>
+    <div>
+      <ul>
+        <li>1015kcal<span> Calorias</span></li>
+        <li>72g<span> GorduraTotal</span></li>
+        <li>45g<span> Carboidratos</span></li>
+        <li>47g<span> Proteínas</span></li>
+      </ul>
+    </div>
+    <table>
+      <tr>
+        <th>Informação nutricional</th>
+        <th>Por Porção</th>
+        <th>*VD%</th>
+      </tr>
+      <tr>
+        <td>Energia (Kcal)</td>
+        <td>1015kcal</td>
+        <td>50.8%</td>
+      </tr>
+      <tr>
+        <td>Carboidratos</td>
+        <td>45g</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>Proteínas</td>
+        <td>47g</td>
+        <td>62.7%</td>
+      </tr>
+      <tr>
+        <td>Gordura total</td>
+        <td>72g</td>
+        <td>130.9%</td>
+      </tr>
+      <tr>
+        <td>Gorduras saturadas</td>
+        <td>28.1g</td>
+        <td>127.7%</td>
+      </tr>
+      <tr>
+        <td>Gordura <span>trans</span></td>
+        <td>1.6g</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Fibra alimentar</td>
+        <td>4g</td>
+        <td>16%</td>
+      </tr>
+      <tr>
+        <td>Sódio</td>
+        <td>1770mg</td>
+        <td>73.8%</td>
+      </tr>
+    </table>
+    <div class="observacoes">
+      <p>Referência: ANVISA. RDC Nº 360, DE 23 DE DEZEMBRO DE 2003. </p>
+      <p>
+        Regulamento técnico sobre rotulagem nutricional de alimentos embalados.</p>
+      <br>
+      <p>
+        *VD: % Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus valores diários podem
+        ser maiores ou menores, dependendo de suas necessidades energéticas.</p>
+      <p>
+        **VD não estabelecido.</p>
+      <p>
+        ***O peso dos produtos, individualmente, pode oscilar na sua montagem, afetando para mais ou para menos os
+        valores informados na tabela.</p>
+      <br>
+      <p>
+        Observações:</p>
+      <p>
+        - A dosagem de xarope dos refrigerantes é fornecida conforme especificação dos fabricantes para bebidas com
+        gelo.</p>
+      <p>
+        - Os resultados nutricionais expressos nas tabelas foram obtidos a partir de cálculos teóricos ou análises
+        bromatológicas realizadas pelo levantamento do peso médio de cada um dos ingredientes que compõem os produtos
+        McDonald’s.</p>
+      <p>
+        - Os valores nutricionais de todos os ingredientes são de responsabilidade dos respectivos fornecedores.</p>
+    </div>
+  </section>
+  <section class="parte3">
+    <div>
+      <h2 class="informacao_alergeno">Informação de alérgeno</h2>
+    </div>
+    <h2>Este produto contém</h2>
+    <table>
+      <tr>
+        <th><img src="./assets/img/mustard-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></th>
+        <th>Mostarda</th>
+        <th><img src="./assets/img/gluten-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></th>
+        <th>Glúten</th>
+      </tr>
+      <tr>
+        <td><img src="./assets/img/gergelim-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Gergelim</td>
+        <td><img src="./assets/img/sulphites-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Sulfito</td>
+      </tr>
+      <tr>
+        <td><img src="./assets/img/milk-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Leite</td>
+        <td><img src="./assets/img/soy-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Soja</td>
+      </tr>
+      <tr>
+        <td><img src="./assets/img/lactose-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Lactos</td>
+        <td><img src="./assets/img/trigo-on.svg" alt="Imagem de Mostarda" class="item_alergenico"></td>
+        <td>Trigo, aveia, cevada e centeio</td>
+      </tr>
+    </table>
+    <div class="observacoes">
+      <p>Referência: ANVISA. RDC N° 26, DE 02 DE JULHO DE 2015, RDC N° 136, de 8 de fevereiro de 2017 e LEI Nº 10.674,
+        DE 16 DE MAIO DE 2003. </p>
+      <p>
+        A tabela acima corresponde aos alérgenos presentes ou que podem estar presentes na composição dos itens do menu,
+        de acordo com as informações de nossos fornecedores. Eventualmente, é possível encontrar traços de alérgenos em
+        produtos que, originalmente, não os contêm, devido ao compartilhamento da área de preparo. Dessa forma, todos os
+        itens do menu podem conter ovo, leite, soja, trigo, aveia, centeio, cevada, amendoim, amêndoa, castanhas,
+        castanha-do-pará, macadâmia, castanha-de-caju, nozes, pistache, avelã, lactose e glúten.</p>
+      <br>
+    </div>
+  </section>
+  <section class="parte4">
+    <div class="baixe_app">
+      <img src="/assets/img/logo_red.png">
+      <div class="texto">
+      <h2>Já baixou o nosso App?</h2>
+      <p>Peça seu delivery, veja o menu, baixe stickers, peça e pague Sem Fila, encontre os restaurantes mais próximos,
+        tenha todos os cupons e muito mais.</p>
+      </div>
+      <button><a href="https://www.mcdonalds.com.br/apps">
+          Baixe Agora</a></button>
+    </div>
+    <div class="lista">
+      <ul>
+        <li>Quem Somos</li>
+        <br>
+        <li>Institucional</li>
+        <li>Franquias</li>
+        <li>Trabalhe Conosco</li>
+        <li>Privacidade</li>
+        <li>Desenvolvimento Sustentável e Compromisso Social</li>
+        <li>Portas Abertas</li>
+        <li>Publicidade Responsável</li>
+      </ul>
+      <ul>
+        <li>Família</li>
+        <br>
+        <li>Lançamentos</li>
+        <li>McLanche Feliz</li>
+        <li>Méqui Box</li>
+        <li>McLanche Feliz</li>
+        <li>App</li>
+        <li>Compromissos com as Famílias</li>
+      </ul>
+      <ul>
+        <li>Méqui pra você</li>
+        <br>
+        <li>App do Méqui</li>
+        <li>McDelivery</li>
+        <li>Méqui no iFood</li>
+        <li>Méqui Sem Fila</li>
+        <li>Gift Card</li>
+        <li>Méqui Zap</li>
+        <li>Drive-Thru</li>
+      </ul>
+      <ul>
+        <li>Contato</li>
+        <br>
+        <li>Contato</li>
+      </ul>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="links">
+      <div class="redes_sociais">
+        <ul>
+          <li><a href="https://www.facebook.com/McDonaldsBrasil/"><img
+            src="./assets/img/Face.png" alt="facebook"></a></li>
+          <li><a href="https://www.facebook.com/McDonaldsBrasil/"><img class="img2" src="./assets/img/Face_pb.png" alt="facebook"></a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.instagram.com/mcdonalds_br/"><img
+            src="./assets/img/insta.png" alt="Instagram"></a></li>
+          <li><a href="https://www.instagram.com/mcdonalds_br/"><img class="img2" src="./assets/img/insta_pb.png" alt="instagram"></a></li>
+        </ul>
+        <ul>
+          <li><a href="https://twitter.com/McDonalds_BR"><img
+            src="./assets/img/twitter.png" alt="Twitter"></a></li>
+          <li><a href="https://twitter.com/McDonalds_BR"><img class="img2" src="./assets/img/twitter_pb.png" alt=""></a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UCcDdl8jO0ELNGZESkLbCDNg"><img
+            src="assets/img/YT.png" alt="You Tube"></a></li>
+          <li><a href="https://www.youtube.com/channel/UCcDdl8jO0ELNGZESkLbCDNg"><img class="img2" src="./assets/img/YT_pb.png" alt=""></a></li>
+        </ul>
+  
+       
+
+
+      </div>
+      <div class="link_app">
+        <a href="https://apps.apple.com/br/app/mcdonalds-app/id1114009187"><img src="assets/img/apple.png" </a>
+          <a href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl=pt_BR"><img
+              src="./assets/img/Android.png"></a>
+      </div>
+    </div>
+    <div class="rodape">
+        <p>Privacidade</p>
+        <p>Termos e Condições</p>
+      <div>
+        <p><img src="./assets/img/logo.png"> © McDonald's 2022</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+</body>

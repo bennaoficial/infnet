@@ -1,0 +1,37 @@
+.parte4 .baixe_app{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffbc0d;
+  padding: 3%;
+  align-items: center;
+}
+.parte4 img{
+  width: 100px;
+  height: 100px;
+}
+.parte4 .texto {
+  padding-left:5% ;
+  padding-right: 5% ;
+}
+.parte4 div h2 {
+  font-size: 200%;
+ text-align: center;
+
+}
+.parte4 button a {
+  text-decoration: none;
+  color: black;
+  text-align: justify
+}
+.parte4 button {
+padding: 15px;
+  
+}
+.parte4 .lista {
+  display: flex;
+
+}
+.parte4 ul li {
+  list-style: none;
+  padding: 2%;
+}

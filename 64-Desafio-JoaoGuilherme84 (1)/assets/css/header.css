@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  top: 0;
+  left: 0;
+  align-items:flex-end ;
+}
+
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  
+}
+header ul li {
+  padding-left: 20px;
+
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  
+}
+header ul li a:hover,
+header ul li a:active{
+border-bottom: 4px solid #ffbc0d;
+border-top: 4px solid #ffbc0d;
+transition: 0.5s;
+}

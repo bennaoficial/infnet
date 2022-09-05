@@ -1,0 +1,35 @@
+.parte3 .informacao_alergeno{
+  padding: 20px;
+  border-top: 1px solid gray;
+  
+}
+
+.parte3>h2 {
+  text-align: center;
+  font-size: 100%;
+}
+.parte3 table {
+  margin: 0 auto;
+}
+.parte3 table tbody tr td {
+  padding-top: 15px;
+  width: 20%;
+  text-align: center;
+  border-bottom: 1px dashed gray;
+}
+.parte3 table tbody th {
+  padding-top: 15px;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  font-weight: normal;
+}
+.parte3 table tbody{
+  background-color: #ebf0f5;
+}
+
+.parte3 .observacoes {
+  text-align: justify;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50px;
+}

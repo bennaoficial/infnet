@@ -1,0 +1,46 @@
+.parte2 .informacao_produto {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  
+
+}
+.parte2 div h2{
+  text-align: center;
+  font-size: 200%;
+  font-weight: normal;
+}
+.parte2 ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+.parte2 ul li{
+  list-style: none;
+  font-size: 200%;
+  font-weight: normal;
+  padding: 5px;
+}
+.parte2 ul li span {
+  font-size: 40%;
+}
+
+.parte2 table {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.parte2 table tbody tr td,
+.parte2 table tbody tr th {
+  padding-top: 15px;
+  width: 20%;
+  text-align: center;
+}
+.parte2 table tbody tr td {
+  border-bottom: 1px dashed gray;
+}
+.parte2 .observacoes {
+  text-align: justify;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50px;
+}

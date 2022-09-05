@@ -1,0 +1,27 @@
+.parte1 {
+  background-color: white;
+  margin-top: 15%;
+  display: flex;
+  padding: 5%;
+
+}
+.parte1 img {
+  width: 50%;
+  height: 50%;
+}
+
+.parte1 div {
+  margin: auto 0;
+ 
+}
+.parte1 h1 {
+  font-size: 400%;
+}
+.parte1 h2 {
+  font-size: 200%;
+  font-weight: normal;
+}
+.parte1 p {
+    font-size: 150%;
+    text-align: justify;
+}
