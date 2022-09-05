@@ -1,0 +1,30 @@
+.cartao_visita {
+  /*transition: 4s;*/
+  
+}
+.redes_sociais {
+  animation-name: opacidade;
+  animation-duration: 4s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes opacidade {
+  0%{ opacity: 0;}
+  75%{opacity: 0;}
+  100%{opacity: 70%;}
+}
+
+.introducao {
+  transition: 4s;
+}
+
+.especialidade {
+  transition: 4s;
+}
+
+.habilidades {
+  transition: 4s;
+}
+

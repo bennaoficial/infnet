@@ -1,0 +1,19 @@
+.especialidade {
+  display: flex;
+  justify-content:center;
+  background-color: #202020;
+  padding:200px;
+}
+.especialidade ol li {
+  color: orange;
+}
+.especialidade ol li span {
+  color: #e8e8e8;
+  font-weight: bold;
+  text-indent: 30px;
+}
+.especialidade h3, .introducao h3, .habilidades h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+

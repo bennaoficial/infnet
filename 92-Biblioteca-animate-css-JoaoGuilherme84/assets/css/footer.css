@@ -1,0 +1,21 @@
+footer {
+width: 100%;
+background-color: #8f8f8f;
+display: flex;
+justify-content: center;
+transition: 2s;
+}
+
+footer i {
+  font-size: 30px;
+  padding: 15px;
+  opacity: 50%;
+  transition: .5s;
+  color: black
+}
+
+footer i:hover {
+color: orange;
+opacity: 100%; 
+transform: scale(1.5);
+}

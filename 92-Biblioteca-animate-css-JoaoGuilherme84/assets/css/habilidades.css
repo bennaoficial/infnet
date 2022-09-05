@@ -1,0 +1,39 @@
+.habilidades {
+  display: flex;
+  justify-content:center;
+  background-color: #383838;
+  padding:200px;
+}
+
+.habilidades ul li {
+  list-style-type: none;
+}
+.habilidades .photoshop:before {
+  content: "70%  ";
+  color: orange;
+}
+.habilidades .illustrator:before {
+  content: "60%  ";
+  color: orange;
+}.habilidades .git:before {
+  content: "30%  ";
+  color: orange;
+}.habilidades .sketchup:before {
+  content: "70%  ";
+  color: orange;
+}
+.habilidades .finalcut:before {
+  content: "90%  ";
+  color: orange;
+}
+.habilidades .seo:before {
+  content: "80%  ";
+  color: orange;
+}
+.habilidades p span {
+  color: orange;  
+}
+.habilidades p {
+  font-weight: bold;
+
+} 
