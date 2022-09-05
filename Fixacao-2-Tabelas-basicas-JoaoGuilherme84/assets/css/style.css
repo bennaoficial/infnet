@@ -1,0 +1,15 @@
+
+table {
+  color: blue;
+  border: 1px solid  lightgray;
+  text-align: center;
+
+}
+td {
+  background-color:  yellow;
+  border: 1px solid  lightgray;
+}
+#branco {
+  background-color: white;
+  border:none;
+}
