@@ -1,0 +1,57 @@
+body {
+  background-color: #2a82b2;
+  background-image: url("../img/Hogwarts.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  color:white;
+  text-align:center;
+  font-family: Helvetica;
+  font-size:25px;
+  text-shadow: 2px 2px black;
+}
+  @font-face {
+   font-family: harry_p;
+   src: url("../font/harry_p.ttf");
+  }
+h2 {
+  font-family:harry_p;
+  font-size:80px; 
+}
+h3{
+  font-size: 20px;
+}
+table *{
+  text-align: center;
+  font-family:Harry_p;
+  color:white;
+  text-decoration:none;
+}
+.menu_descricao {
+  width: 25%;
+}
+.menu_descricao:hover {
+  font-size:20px;
+}
+.trailer_dub {
+   text-align:center;
+    margin-top: 5%;
+}
+table.elenco {
+
+ margin-left: auto;
+ margin-right: auto;
+}
+.texto_elenco {
+  font-family:helvetica;
+  width:25%;
+  
+}
+.cartaz {
+  margin-left:auto;
+  margin-right:auto;  
+
+}
+.cinemas_logo:hover{
+  box-shadow: 10px 10px 20px black;
+}
