@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+}
+table.menu_inicial {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  font-family: arial;
+  padding: 5px;
+}
+.menu_link:link, .menu_link:visited {
+  color: white;
+  
+}
+.menu_link:active {
+  color: orange;
+}
+.segundomenu_link:link, .segundomenu_link:visited {
+  color: black;
+  
+}
+.segundomenu)link:active {
+  color: orange;
+  
+}
+td.foto_benna {
+  width: 60%;
+  text-align: left;
+  padding-left: 10%;
+  
+}
+ 
+.sobre_benna {
+  padding: 2%;
+  background-color: orange;
+  color: black
+
+}
+
+.style_espaco989 {
+   padding: 2%;
+  background-color: orange;
+  color: black
+}
+
+.style_workshops {
+  padding: 2%
+}
+.listaordenada {
+  list-style-position: inside;
+}
