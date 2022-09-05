@@ -1,0 +1,49 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
+  color: #d6d6d6;
+
+}
+
+main {
+  text-align: center;
+  background-image: linear-gradient(#f1effa, white);
+  padding: 5%;
+
+}
+main h1 {
+  font-family: times;
+  color:#625bab
+}
+
+.main-posts .post img {
+  width: 100%;
+}
+
+.main-posts {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  padding: 2%;
+  font-size: 12px;
+
+}
+.post.post:hover {
+  background-image: linear-gradient(white, #f1effa);
+  
+}
+.post h2 {
+  font-size: 15px;
+  color: black;
+}
+.post a {
+  padding: 10px;
+  background-color: #625bab;
+  text-decoration: none;
+  color: white;
+}
+.post p {
+  padding: 5%;
+}
