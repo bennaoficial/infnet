@@ -1,0 +1,171 @@
+html {
+font-family: Arial, Helvetica, sans-serif;
+color: #e8e8e8;
+scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+.menu_topo, footer {
+width: 100%;
+background-color: #8f8f8f;
+display: flex;
+justify-content: center;
+}
+.menu_topo {
+
+}
+header svg, footer svg {
+  width: 30px;
+  padding: 30px;
+  opacity: 50%;
+  transition: .5s;
+}
+
+header svg:hover ,footer svg:hover {
+fill: orange;
+opacity: 100%; 
+transform: scale(1.5);
+}
+.menu_fixo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e8e8e8;
+  opacity: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: black;
+  z-index: -1;
+}
+.menu_fixo ul {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.menu_fixo ul li {
+  list-style: none;
+}
+.menu_fixo ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px ;
+}
+
+.cartao_visita {
+  display: flex;
+  justify-content:center;
+  background-color: #202020;
+  padding:225px;
+}
+section div img , section div h3{
+  width: 225px;
+  margin-right: 150px;
+  font-weight: lighter;
+}
+
+section div h1 {
+ font-size: 60px;  
+  color: orange;
+  font-weight: bold;
+  font-stretch:condensed;
+}
+section div h2 {
+  font-size: 40px;
+}
+section div, section div article {
+  text-align: left;
+  margin-left: 150px;
+  margin: auto 0;
+
+}
+.tabela {
+  background-color: #202020;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+section table {
+  margin: 0 auto;
+  border-top: 1px solid #e8e8e8;
+
+}
+section table td, th {
+  padding: 10px;
+}
+section table td:hover {
+  background-color: orange;
+
+}
+.introducao, .habilidades {
+  display: flex;
+  justify-content:center;
+  background-color: #383838;
+  padding:200px;
+}
+.introducao div , .especialidade div, .habilidades div {
+  text-align: center;
+}
+.introducao div p, .especialidade p {
+  text-align: justify;
+    text-indent: 30px;
+}
+.especialidade {
+  display: flex;
+  justify-content:center;
+  background-color: #202020;
+  padding:200px;
+}
+.especialidade ol li {
+  color: orange;
+}
+.especialidade ol li span {
+  color: #e8e8e8;
+  font-weight: bold;
+  text-indent: 30px;
+}
+.especialidade h3, .introducao h3, .habilidades h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.habilidades ul li {
+  list-style-type: none;
+}
+.habilidades .photoshop:before {
+  content: "70%  ";
+  color: orange;
+}
+.habilidades .illustrator:before {
+  content: "60%  ";
+  color: orange;
+}.habilidades .git:before {
+  content: "30%  ";
+  color: orange;
+}.habilidades .sketchup:before {
+  content: "70%  ";
+  color: orange;
+}
+.habilidades .finalcut:before {
+  content: "90%  ";
+  color: orange;
+}
+.habilidades .seo:before {
+  content: "80%  ";
+  color: orange;
+}
+.habilidades p span {
+  color: orange;  
+}
+.habilidades p {
+  font-weight: bold;
+  transition-duration: 2s;
+  transition-delay: 4s;
+
+} 
+@media screen and (max-width:1023px){
+.cartao_visita, .introducao, .especialidade, .habilidades {
+  flex-wrap: wrap;
+  padding: 10%;
+}
+  
+}
