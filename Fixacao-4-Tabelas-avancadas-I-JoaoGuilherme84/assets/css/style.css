@@ -1,0 +1,31 @@
+section {
+  border:2px ridge;
+  width: fit-content;
+}
+table { 
+  border:2px ridge;
+  width: 400px;
+  font-family: helvetica;
+  text-align: left;
+  margin: 0px auto;
+}
+
+tr:nth-child(4), tr:nth-child(8) {
+  background-color: #66fffc;
+
+}
+th {
+  text-align: center;
+}
+tr:nth-child(1) {
+  font-size: 20px;
+
+}
+td:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+tbody {
+
+}
