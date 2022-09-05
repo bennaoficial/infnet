@@ -1,0 +1,41 @@
+html, body {
+  margin: 0 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  display:flex;
+  justify-content: space-between;
+}
+
+.colesquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.coldireita {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.esqcima {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.esqbaixo {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+
+.dircima {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
+.dirbaixo {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
