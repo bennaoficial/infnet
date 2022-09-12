@@ -1,2 +1,2 @@
 # BootcampInfnet
-Depositório dos estudos no Bootcamp de FullStack
+Depositório dos estudos de Html5 e Css no Bootcamp de FullStack
